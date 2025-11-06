@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalog Nike</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="kids-style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">
+    <img src="http://pluspng.com/img-png/nike-logo-png-png-file-name-nike-logo-2133.png" alt="Nike Logo" class="logo-img">
+  </div>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../men/index.html">Sepatu</a></li>
+    <li><a href="../women/index.html">Pakaian</a></li>
+    <li><a href="index.html">Aksesoris</a></li>
+  </ul>
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Cari produk...">
+    <button id="searchButton"><i class="fas fa-search"></i></button>
+  </div>
+</nav>
+
+
+<!-- HERO (Video Lokal Nike yang Bisa Diputar) -->
+<section class="hero video-hero fade-in">
+  <!-- Video Lokal dengan Kontrol -->
+  <video controls autoplay muted loop class="hero-video" poster="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1920,c_limit/hero-poster.jpg">
+    <source src="Nike.mp4" type="video/mp4">
+    <!-- Fallback: Gambar jika video tidak didukung -->
+    <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1920,c_limit/hero-fallback.jpg" alt="Nike Hero Fallback" class="video-fallback">
+    Browser Anda tidak mendukung video.
+  </video>
+  <!-- Overlay untuk Branding -->
+  <div class="hero-overlay video-overlay"></div> 
+  <div class="hero-content video-content">
+    <a href="#produk" class="btn btn-hero">Lihat Koleksi</a>
+  </div>
+</section>
+
+ <section id="promo" class="slider fade-in">
+  <h2 class="slider-title">Produk Baru</h2>
+  <div class="slider-container">
+    <div class="slides">
+      <!-- Slide 1: Contoh dengan overlay -->
+      <div class="slide-item" data-original-price="Rp 1.729.000" data-discount-price="Rp 1.399.000" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/5d5dc2ec-8d94-4433-a4cb-08381ac1cff1/NIKE+X+LEGO+COL+BACKPACK.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike x LEGO® Collection Heritage Backpack (25L)</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <!-- Ulangi struktur serupa untuk slide 2-12, dengan data yang sesuai -->
+      <div class="slide-item" data-original-price="Rp 2.989.000" data-discount-price="Rp 2.699.000" data-description="Promo eksklusif untuk Air Jordan 5.">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/11954e65-deb5-45f4-93ea-1030b025a0ca/U+NK+PEAK+BEANIE+TC+FUT+F24+L.png" alt="Promo 2">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike Peak Futura Beanie</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <!-- Lanjutkan untuk slide lainnya dengan data promo yang relevan -->
+       <div class="slide-item" data-original-price="Rp 1.729.000" data-discount-price="Rp 1.383.200" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/xwldm2jnomnparuvomh7/U+NK+EVERYDAY+LTWT+CREW+3PR.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike Everyday Lightweight Training Crew Socks </h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-item" data-original-price="Rp 2.099.000" data-discount-price="Rp 1.729.000" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/c4c482c5-8d51-4ad9-a147-9306407f339b/NK+HERITAGE+CRYSTAL+CB.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike Dunk Low Retro Limited</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-item" data-original-price="Rp 1.069.000" data-discount-price="Rp 889.000" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/78a358e9-41fc-4be3-8184-47c19ea18fe2/NIKE+SB+FC+CLASSIC.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike SB FC Classic</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-item" data-original-price="Rp 1.729.000" data-discount-price="Rp 1.209.000" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/68c87179-3941-432f-8a04-507d75428f56/NIKE+HAYWARD+BKPK.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike Hayward Backpack (26L)</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-item" data-original-price="Rp 2.849.000" data-discount-price="Rp 2.329.000" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/c7bbb948-3f23-4ef4-b387-3e70560966c3/Y+NK+BOXY+BKPK.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike Kids' Backpack</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-item" data-original-price="Rp 4.000.000" data-discount-price="Rp 3.329.000" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/0ff016e8-1518-4bbc-8c87-bf5f3f2150be/AIR+FORCE+1+%2707+LV8.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike Air Force 1'07 LV8</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-item" data-original-price="Rp 4.000.000" data-discount-price="Rp 3.329.000" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/f40040f5-be12-46a1-98e6-eaae48acc8df/W+NIKE+PEGASUS+PREMIUM.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike Pegasus Premium</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-item" data-original-price="Rp 4.000.000" data-discount-price="Rp 3.329.000" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/174104d4-4f49-4af8-919f-0c5f7045f0c7/NIKE+VOMERO+PREMIUM.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike Vomero Premium</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- PRODUK -->
+  <section id="produk" class="container fade-in">
+    <h2 class="section-title">Katalog Produk</h2>
+    <div class="grid" id="productGrid">
+      <!-- Produk akan ditampilkan di sini -->
+      <div class="card" data-product-id="1">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/b5c6d960-3f93-4ee6-97bc-f0efb0cfe4c7/NK+ONE+BKPK.png" alt="Nike Back">
+        <div class="card-content">
+          <h3>Nike One Backpack (25L)</h3>
+          <div class="price">Rp 1.329.000</div>
+          <button onclick="openProductModal(1)">Lihat Detail</button> <!-- Ubah button untuk trigger modal -->
+        </div>
+      </div>
+
+      <div class="card" data-product-id="2">
+        <img src="https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/0f0a7877-7aef-447f-86c2-1ef62d7c1c93/U+NK+DF+CLUB+CAP+U+CB+MTSWSH+L.png" alt="Nike Cap">
+        <div class="card-content">
+          <h3>Nike Dri-FIT Club Unstructured Metal Swoosh Cap</h3>
+          <div class="price">Rp 299.000</div>
+          <button onclick="openProductModal(2)">Lihat Detail</button>
+        </div>
+      </div>
+  
+      <div class="card" data-product-id="3">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/2f66d6c2-6d0b-43b1-ba57-5f6850733f9f/NK+VARSITY+ELITE+SHOEBAG.png" alt="Air Jordan MVP 92">
+        <div class="card-content">
+          <h3>Nike Varsity Elite Basketball Shoe Bag (14L)</h3>
+          <div class="price">Rp 509.000</div>
+          <button onclick="openProductModal(3)">Lihat Detail</button> <!-- Ubah button untuk trigger modal -->
+        </div>
+      </div>
+
+      <div class="card" data-product-id="4">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/e204a166-b005-4aeb-a53a-a81edf6d05f1/NK+SHIN+SOCK+SLV.png" alt="Luka .77 PF 'Gone Camping'">
+        <div class="card-content">
+          <h3>Nike Football Shinguards</h3>
+          <div class="price">Rp 1999.000</div>
+          <button onclick="openProductModal(4)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="5">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/246cb198-b5b8-452d-8dac-47c947d908a0/NIKE+SKILLS+T90+FA25.png" alt="Nike x Travis Scott">
+        <div class="card-content">
+          <h3>Nike Skills Total 90 Football</h3>
+          <div class="price">Rp 259.000</div>
+          <button onclick="openProductModal(5)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="6">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/54c2af32-22a8-4006-9954-2eb3fb32c1ad/NK+GK+MATCH+-+HO24.png" alt="Nike x Travis Scott">
+        <div class="card-content">
+          <h3>Nike Match Goalkeeper Football Gloves</h3>
+          <div class="price">Rp 389.000</div>
+          <button onclick="openProductModal(6)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="7">
+        <img src="https://static.nike.com/a/images/w_1280,q_auto,f_auto/ddca2079-4809-47ef-b2f9-203be990fb99/nike-x-st%C3%BCssy-apparel-collection-release-date.jpg" alt="Nike x Off White">
+        <div class="card-content">
+          <h3>Nike x Stüssy Beanie</h3>
+          <div class="price">Rp 299.000</div>
+          <button onclick="openProductModal(7)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="8">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/13aebdee-0b91-4f54-b513-4ebb53538eea/NK+ACDMY+TEAM+L+DUFF.png" alt="Nike Sacai">
+        <div class="card-content">
+          <h3>Nike Academy Team Football Duffel Bag (Large, 95L)</h3>
+          <div class="price">Rp 599.000</div>
+          <button onclick="openProductModal(8)">Lihat Detail</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+    <!-- KATEGORI -->
+  <section class="kategori fade-in">
+    <h2 class="section-title">Kategori Produk</h2>
+    <div class="kategori-grid">
+      <a class="kategori-item" href="../men/index.html">Sepatu</a>
+      <a class="kategori-item" href="../women/index.html">Pakaian</a>
+      <a class="kategori-item" href="index.html">Aksesoris</a>
+    </div>
+  </section>
+
+  <!-- TESTIMONI -->
+  <section id="testimoni" class="testimoni fade-in">
+    <h2 class="section-title">Apa Kata Mereka</h2>
+    <div class="testi-grid">
+      <div class="testi-item">
+        <p>"Sepatunya nyaman banget buat jogging, recommended!"</p>
+        <span>- Andi, Jakarta</span>
+      </div>
+      <div class="testi-item">
+        <p>"Kualitas premium, worth the price. Pengiriman juga cepat."</p>
+        <span>- Sinta, Bandung</span>
+      </div>
+      <div class="testi-item">
+        <p>"Produk sesuai gambar dan deskripsi. Sangat puas!"</p>
+        <span>- Rudi, Surabaya</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUBSCRIBE -->
+  <section class="subscribe fade-in">
+    <h2>Dapatkan Promo Update Nike</h2>
+    <form>
+      <input type="email" placeholder="Masukkan email Anda">
+      <button type="submit">Berlangganan</button>
+    </form>
+  </section>
+
+  <!-- TENTANG -->
+  <section id="tentang" class="about fade-in">
+    <h2 class="section-title">Tentang Nike</h2>
+    <p>
+      Nike, Inc. adalah salah satu perusahaan sepatu, pakaian dan alat-alat olahraga Amerika Serikat yang merupakan salah satu yang terbesar di dunia. Mereka terkenal karena mensponsori beberapa olahragawan profesional dunia seperti Cristiano Ronaldo, Leroy Sané, Kylian Mbappe, Ronaldinho, Wayne Rooney, Rafael Nadal, Pete Sampras, Tiger Woods, LeBron James, Kyrie Irving, James Stewart, dan Michael Jordan. Dengan slogan <em>Just Do It</em>, 
+      Nike menginspirasi generasi untuk terus bergerak maju. Nike berkomitmen untuk memberikan produk terbaik
+      yang mendukung setiap langkah menuju keunggulan.
+    </p>
+  </section>
+
+  <!-- KONTAK -->
+<section id="kontak" class="contact fade-in">
+  <h2 class="section-title">Kontak Kami</h2>
+  <div class="social-media">
+    <a href="https://www.instagram.com/nike/" target="_blank" aria-label="Instagram">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+    <a href="https://www.facebook.com/nike/" target="_blank" aria-label="Facebook">
+      <i class="fab fa-facebook-f"></i> Facebook
+    </a>
+    <a href="https://twitter.com/Nike" target="_blank" aria-label="Twitter">
+      <i class="fab fa-twitter"></i> Twitter
+    </a>
+  </div>
+</section>
+
+  <footer>
+    <p>&copy; Katalog Nike | Made by ryzyyy </p>
+  </footer>
+  <div id="productModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="modal-body">
+      <!-- Carousel Images -->
+      <div class="image-carousel">
+        <div class="carousel-images" id="carouselImages">
+          <!-- Images akan diisi via JS -->
+        </div>
+        <button class="prev">&lt;</button>
+        <button class="next">&gt;</button>
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+      
+      <!-- Deskripsi Produk -->
+      <div class="product-details">
+        <h2 id="productTitle"></h2>
+        <div class="price" id="productPrice"></div>
+        <p id="productDescription"></p>
+        <ul class="specs">
+          <!-- Specs akan diisi via JS -->
+        </ul>
+        <button class="buy-btn">Beli Sekarang</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+
+  
+</body>
+</html>
