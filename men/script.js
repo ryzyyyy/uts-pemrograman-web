@@ -289,6 +289,439 @@ const productData = {
       "Country/Region of Origin: China"
     ]
   },
+  9: {
+    title: "Nike Air Force 1 GORE-TEX ®",
+    price: "Rp. 2.489.000",
+    description: "The Nike Air Force 1 GORE-TEX ® retools the classic Air Force 1 with a street-approved design that meets the standards of GORE-TEX ® waterproof technology.It features water-wicking flat laces, a GORE-TEX ® bootie and GORE-TEX ® branding on the heel.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/fda50e93-7c0a-40d8-80b2-645c1f86a76e/AIR+FORCE+1+GTX.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/9fe93531-58a6-43f1-bae2-431ecb30591d/AIR+FORCE+1+GTX.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/6bcdc3d7-b5cf-4dfe-acea-93088aa86ea3/AIR+FORCE+1+GTX.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/f3667419-4ae9-4ee9-9810-f10a1a535bda/AIR+FORCE+1+GTX.png",
+      ""
+    ],
+    specs:[
+      "Size: 38.5-47.5",
+      "Colour Shown: Phantom/Light Silver/Light Bone/Black",
+      "Style: CK2630-004",
+      "Country/Region of Origin: Vietnam"
+    ]
+  },
+  10: {
+    title: "Air Jordan 1 Low SE",
+    price: "Rp. 1.939.000",
+    description: "Inspired by the original that debuted in 1985, the Air Jordan 1 Low offers a clean, classic look that's familiar yet always fresh. With an iconic design that pairs perfectly with any 'fit, these kicks ensure you'll always be on point.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/75bccf5e-9013-486c-9696-e0082a5b3205/AIR+JORDAN+1+LOW+SE.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2e70b411-ee50-4667-9fd8-7b926116c3ae/AIR+JORDAN+1+LOW+SE.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/aa208695-eedf-4ca7-9447-a9b6c51be1b6/AIR+JORDAN+1+LOW+SE.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b82514bf-08e9-438d-9c87-f46b126715e4/AIR+JORDAN+1+LOW+SE.png",
+      ""
+
+    ],
+    specs:[
+      "Size: 40-47.5",
+      "Colour Shown: Black/Anthracite/Tour Yellow",
+      "Style: IM6568-010",
+      "Country/Region of Origin: Indonesia"
+    ]
+  },
+  11: {
+    title: "Nike Gato LV8",
+    price: "Rp. 1.729.000",
+    description: "This beloved indoor football shoe is now primed and ready for the streets. This edition mixes breezy textiles with metallic overlays for an elevated look that's easy to style.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/1d366e5b-7cff-4c1e-8708-af2c68c6fd82/NIKE+GATO+LV8.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/7399870c-f66b-42a6-8d8d-294e889791e4/NIKE+GATO+LV8.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/188541e5-de83-4f72-8b26-105d0f7d1868/NIKE+GATO+LV8.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/537778de-b77d-4719-9988-52e2c0f57dc0/NIKE+GATO+LV8.png",
+      ""
+    ],
+    specs:[
+      "Size: 38.5-48.5",
+      "Colour Shown: Metallic Silver/White/Gum Light Brown/Metallic Silver",
+      "Style: IB3566-001",
+      "Country/Region of Origin: Indonesia, Vietnam"
+    ]
+  },
+  12: {
+    title: "Nike Infinity Tour 2",
+    price: "Rp. 2.669.000",
+    description: "The Infinity Tour 2 ups the ante from the previous iteration with more spikes, updated foam and a flattened Air Zoom unit. It's all in the name of swaggering strolls towards the pin as you point to where your ball just landed. With plenty of bounce and comfort, it's game for wherever your next round takes you.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/07a876c1-b7c3-4c1c-aee4-3a952eeec7fb/AIR+ZOOM+INFINITY+TR+NEXT%25+2.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/b9e2769d-b58d-4761-8e7c-b66040d873c2/AIR+ZOOM+INFINITY+TR+NEXT%25+2.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/2468ca6b-f749-4edd-b6ef-c57a323ef9cb/AIR+ZOOM+INFINITY+TR+NEXT%25+2.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/3d4e5a3c-7563-48da-95af-090d399ce484/AIR+ZOOM+INFINITY+TR+NEXT%25+2.png",
+      ""
+    ],
+    specs:[
+      "Size: 37.5-48.5",
+      "Colour Shown: Black/Blue Hero/Cool Grey/White",
+      "Style: FD0217-004",
+      "Country/Region of Origin: Vietnam"
+    ]
+  },
+  13: {
+    title: "Nike Field General",
+    price: "Rp. 1.729.000",
+    description: "The Field General returns from its gritty American football roots to shake up the sneaker scene. It pairs smooth leather and soft suede with a snakeskin Swoosh logo for a modern take on that vintage gridiron look.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/b3bfb80a-7598-409c-9dda-9e176f64952c/NIKE+FIELD+GENERAL.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/dca7e6a0-15ed-47b4-b3c8-737dfbadf635/NIKE+FIELD+GENERAL.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/2667e045-27e5-4ba7-b6eb-98177717e968/NIKE+FIELD+GENERAL.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/6250d8a4-965f-4a6e-b9c9-58fce995b6e9/NIKE+FIELD+GENERAL.png",
+      ""
+    ],
+    specs:[
+      "Size: 38.5-47.5",
+      "Colour Shown: Light Bone/Sail/Black/Multi-Colour",
+      "Style: IF0667-002",
+      "Country/Region of Origin: Vietnam"
+    ]
+  },
+  14: {
+    title: "Jordan Spizike Low",
+    price: "Rp. 2.489.000",
+    description: "The Spizike takes elements of five classic Jordans, combines them and gives you one iconic sneaker. It's an homage to Spike Lee formally introducing Hollywood and hoops in a culture moment. You get a great-looking pair of kicks with some history. What more can you ask for? Ya dig?",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/be7e610a-909a-4f66-8dc6-5d9cccbe8109/JORDAN+SPIZIKE+LOW.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/dd54eec7-4277-44bf-a725-4444bb35deb1/JORDAN+SPIZIKE+LOW.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f242d733-4270-4966-9207-8ae1a4a9f94b/JORDAN+SPIZIKE+LOW.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2c8a4202-deb0-4985-bbc9-f37bde38d765/JORDAN+SPIZIKE+LOW.png",
+      ""
+    ],
+    specs:[
+      "Size: 40-47.5",
+      "Colour Shown: Black/Gamma Blue/Wolf Grey",
+      "Style: FQ1759-005",
+      "Country/Region of Origin: Vietnam"
+    ]
+  },
+  15: {
+    title: "Air Jordan 1 Low OG Chicago",
+    price: "Rp. 2.199.000",
+    description: "Since his game-winning shot that brought championship glory to North Carolina, Michael Jordan has been at the forefront of basketball consciousness. He took to the court in 1985 wearing the original Air Jordan I, simultaneously breaking league rules and his opponents' will, while capturing the imaginations of fans worldwide.",
+    images: [
+      "https://static.nike.com/a/images/w_1280,q_auto,f_auto/6be37b66-9fb2-45bd-ae3f-6b141186cc36/air-jordan-1-low-og-chicago-hq6998-600-release-date.jpg",
+      "https://static.nike.com/a/images/w_1280,q_auto,f_auto/a0f2127c-3df3-4640-999f-e1223385971c/air-jordan-1-low-og-chicago-hq6998-600-release-date.jpg",
+      "https://static.nike.com/a/images/w_1280,q_auto,f_auto/4f808e33-d3e3-413a-9424-566bbf7bce77/air-jordan-1-low-og-chicago-hq6998-600-release-date.jpg",
+      "https://static.nike.com/a/images/w_1280,q_auto,f_auto/ceef39e8-4921-44f7-9471-bf960028a872/air-jordan-1-low-og-chicago-hq6998-600-release-date.jpg",
+      ""
+    ],
+    specs:[
+      "Size: 37.5-47.5",
+      "Colour Shown: Red/White/Black",
+      "Style: HQ6998-600",
+      "Country/Region of Origin: China"
+    ]
+  },
+  16: {
+    title: "Nike Terra Manta",
+    price: "Rp. 1.299.000",
+    description: "The Terra Manta delivers a fresh take on the low-profile look while preserving the retro style we love. Its textile and leather upper pays homage to the classics that came before it, and the outsole features a high-traction design that is both durable and flexible.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/a78feeca-f88f-417e-8080-5566fb67d032/W+NIKE+TERRA+MANTA.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/f4a42bf5-979b-4946-a325-f81a2f017022/W+NIKE+TERRA+MANTA.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/48f828b5-f2d2-4b8c-9491-40fdbbcc9e18/W+NIKE+TERRA+MANTA.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/e283a4ad-ac6d-45f7-925e-4245dcd1b416/W+NIKE+TERRA+MANTA.png",
+      ""
+    ],
+    specs:[
+      "Size: 35-44.5",
+      "Colour Shown: Diffused Blue/Gum Light Brown/Sail",
+      "Style: HQ1940-400",
+      "Country/Region of Origin: Indonesia, Vietnam"
+    ]
+  },
+  17: {
+    title: "Nike LD-1000",
+    price: "Rp. 1.549.000",
+    description: "Originally released in 1977, the LD-1000's innovative, dramatically flared heel was created to support long-distance runners. A fan favourite, now you can get your hands on one of Nike's most famous innovations too.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/f09e0aa5-1a5e-4bc1-965f-502f1371c3e1/LD-1000.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/53f163df-2529-4b19-a499-6109b806a9dd/LD-1000.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/d60c653b-83ee-46d2-a718-302951fae2f2/LD-1000.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/f72855ec-a64c-4193-8258-18cabe1a9961/LD-1000.png",
+      ""
+    ],
+    specs:[
+      "Size: 37.5-47.5",
+      "Colour Shown: Dusty Amethyst/Purple Dawn/Coconut Milk/Light Lemon Twist",
+      "Style: IB8121-527",
+      "Country/Region of Origin: Vietnam"
+    ]
+  },
+  18: {
+    title: "Nike Cortez Textile",
+    price: "Rp. 1.549.000",
+    description: "The revamped Cortez maintains the retro appeal you know and love with a wider toe area and firmer side panels, so you can comfortably wear them all day without any warping. This version is crafted with a washed, black denim for a casual look.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/f4ae7b8f-c07d-4187-a979-e30f955ef7bd/W+NIKE+CORTEZ+TXT.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/ce402fc7-8651-4844-9904-cb9fbbb2c364/W+NIKE+CORTEZ+TXT.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/771b81d3-765b-4606-bcf2-0941c804f97a/W+NIKE+CORTEZ+TXT.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/a36b54dd-95b9-4427-a97e-ba1ad77314bc/W+NIKE+CORTEZ+TXT.png",
+      ""
+    ],
+    specs:[
+      "Size: 35-42",
+      "Colour Shown: Black/Sail/Gum Light Brown/Black",
+      "Style: IM8052-010",
+      "Country/Region of Origin: Indonesia"
+    ]
+  },
+  19: {
+    title: "Nike Air Force 1 Low Retro",
+    price: "Rp. 2.099.000",
+    description: "Comfortable, durable and timeless—it's number 1 for a reason. The classic '80s construction pairs with bold details for style that tracks whether you're on court or on the go.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/044a4efa-1e7e-411f-ab76-40148af5ff52/AIR+FORCE+1+LOW+RETRO.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/d65affb8-2803-4371-84e2-0716a2cc86a4/AIR+FORCE+1+LOW+RETRO.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/8e179f1e-eaed-4480-87e8-1755ea88adfd/AIR+FORCE+1+LOW+RETRO.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/955cbb77-be49-4138-a41a-ef6c276c87ae/AIR+FORCE+1+LOW+RETRO.png",
+      ""
+    ],
+    specs:[
+      "Size: 38.5-48.5",
+      "Colour Shown: White/Gum Medium Brown/Summit White/Black",
+      "Style: HQ1967-100",
+      "Country/Region of Origin: Vietnam"
+    ]
+  },
+  20: {
+    title: "Nike Air Max Dn Roam",
+    price: "Rp. 2.849.000",
+    description: "Hit the streets with confidence in this weatherised rendition of the Air Max Dn. While maintaining its Dynamic Air unit cushioning system, we added a waterproof zip-up shroud and Nike Storm Tread for reliable coverage and traction.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/a5e92f74-2f58-4d1f-838d-e0d683259c51/AIR+MAX+DN+ROAM.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/31268580-f177-4746-b15d-f70c74cfd0bc/AIR+MAX+DN+ROAM.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/a286aaba-247e-4a10-8fb3-dd16e5c7b12c/AIR+MAX+DN+ROAM.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/72569484-f7ad-4d01-92e0-b7d7e84686ed/AIR+MAX+DN+ROAM.png",
+      ""
+    ],
+    specs:[
+      "Size: 38.5-47.5",
+      "Colour Shown: Black/Black/Black/Metallic Silver",
+      "Style: HQ8605-001",
+      "Country/Region of Origin: Vietnam"
+    ]
+  },
+  21: {
+    title: "Air Jordan 1 Retro High OG 'Shattered Backboard'",
+    price: "Rp. 2.849.000",
+    description: "The Air Jordan 1 Retro High remakes the classic sneaker, giving you a fresh look with a familiar feel. Premium materials with new colours and textures give modern expression to an all-time favourite.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e0ec726e-db64-40f1-a6d3-ec9c9b2b7e64/AIR+JORDAN+1+RETRO+HIGH+OG.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3427ae48-beb6-4661-8002-3cef3309c7e5/AIR+JORDAN+1+RETRO+HIGH+OG.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8c4b6996-8376-4911-8e04-5b42d462e73e/AIR+JORDAN+1+RETRO+HIGH+OG.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8f7673e1-6ad6-4506-8f95-a0e2369d638d/AIR+JORDAN+1+RETRO+HIGH+OG.png",
+      ""
+    ],
+    specs: [
+      "Size: 38-48.5",
+      "Colour Shown: Black/Sail/Starfish/Black",
+      "Style: DZ5485-008",
+      "Country/Region of Origin: China"
+    ]
+  },
+  22: {
+    title: "Air Jordan 1 Low G",
+    price: "Rp. 2.149.000",
+    description: "Feel unbeatable, from the tee box to the final putt. Inspired by one of the most iconic sneakers of all time, the Air Jordan 1 G is an instant classic on the course. With Air cushioning underfoot, a Wings logo on the heel and an integrated traction pattern to help you power through your swing, it delivers all the clubhouse cool of the original AJ1—plus everything you need to play 18 holes in comfort.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/29588563-bfe4-4a68-a913-b86a6c221c23/AIR+JORDAN+1+LOW+G.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/bb8972d4-c8db-41e9-b8ad-eb3133d40ee3/AIR+JORDAN+1+LOW+G.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e94a9fef-ca56-4c55-a2c6-401c5b9281e0/AIR+JORDAN+1+LOW+G.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fb4cf483-6047-4b12-bee6-3f96a6fdc1ec/AIR+JORDAN+1+LOW+G.png",
+      ""
+    ],
+    specs: [
+      "Size: 36-49.5",
+      "Colour Shown: Black/Sail/Medium Grey",
+      "Style: DD9315-001",
+      "Country/Region of Origin: China"
+    ]
+  },
+  23: {
+    title: "Nike Dunk Retro Panda",
+    price: "Rp. 1.549.000",
+    description: "Created for the hardwood but taken to the streets, the Nike Dunk Low Retro returns with crisp overlays and original team colours. This basketball icon channels '80s vibes with premium leather in the upper that looks good and breaks in even better. Modern footwear technology helps bring the comfort into the 21st century.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/b8083f2f-0933-4c11-9438-5497d751ce62/NIKE+DUNK+LOW+RETRO.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/ebd299fe-f5b4-45c6-9bf5-88bce1dc9878/NIKE+DUNK+LOW+RETRO.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/2c25c676-832d-453f-9cd9-dd6b492d7636/NIKE+DUNK+LOW+RETRO.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/b64e38ae-4c2b-446d-9378-d100a190f847/NIKE+DUNK+LOW+RETRO.png",
+      ""
+    ],
+    specs: [
+      "Size: 38.5-49.5",
+      "Colour Shown: White/White/Black",
+      "Style: DD1391-100",
+      "Country/Region of Origin: China, Indonesia, Vietnam"
+    ]
+  },
+  24: {
+    title: "Nike SB Dunk Low Pro",
+    price: "Rp. 1.729.000",
+    description: "You can always count on a classic. The Dunk Low pairs iconic color blocking with premium materials and plush padding for game-changing comfort that lasts. The possibilities are endless—how will you wear your Dunks?",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/931fa19d-c627-4dfe-947b-ac6a67279521/NIKE+SB+DUNK+LOW+PRO.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/9077af13-b8c9-4fa2-9b8c-89a6abd207f1/NIKE+SB+DUNK+LOW+PRO.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/72b990f3-fe95-456e-ab82-becbca426d7d/NIKE+SB+DUNK+LOW+PRO.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/4a2404b2-62c2-4ac0-9665-ea62d255d179/NIKE+SB+DUNK+LOW+PRO.png",
+      ""
+    ],
+    specs: [
+      "Size: 40-47.5",
+      "Colour Shown: Red Stardust/Monarch/Coconut Milk/Neutral Olive",
+      "Style: HJ4135-600",
+      "Country/Region of Origin: Vietnam"
+    ]
+  },
+  25: {
+    title: "Nike Dunk Low Retro SE",
+    price: "Rp. 1.909.000",
+    description: "40 years strong, and a classic since day one. We're celebrating the Dunk's birthday with limited-edition colour-blocking and finishes, a removable panda tag and plush padding that brings game-changing comfort. Don't forget your party favours—each box comes with a tear-out envelope and Panda stickers to keep the celebration going.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/54983de1-57d6-4247-885d-fe4101862c70/NIKE+DUNK+LOW+RETRO+SE.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/9e69e3ef-78e1-4867-b454-b4f713ff59b3/NIKE+DUNK+LOW+RETRO+SE.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/d027d995-792d-41e6-8d7f-62a71f78d503/NIKE+DUNK+LOW+RETRO+SE.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/9260eaf5-51e5-4000-b402-749541147caf/NIKE+DUNK+LOW+RETRO+SE.png",
+      ""
+    ],
+    specs: [
+      "Size: 38.5-48.5",
+      "Colour Shown: White/Black/Black",
+      "Style: IB2990-100",
+      "Country/Region of Origin: Vietnam"
+    ]
+  },
+  26: {
+    title: "Nike Dunk Low Retro Premium",
+    price: "Rp. 1.909.000",
+    description: "You can always count on a classic. The Dunk Low pairs iconic colour-blocking with premium materials and plush padding for game-changing comfort that lasts. The possibilities are endless—how will you wear your Dunks?",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/4a60c256-9d7e-4a8a-92c2-94204060c748/NIKE+DUNK+LOW+RETRO+PRM.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/7fcaba7a-9b51-4883-baff-bbe4e56d2c91/NIKE+DUNK+LOW+RETRO+PRM.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/c59a894e-e2c4-4630-bfc4-6400b8daf07b/NIKE+DUNK+LOW+RETRO+PRM.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/c4398a94-ded8-4e85-a09c-ffffc6d38132/NIKE+DUNK+LOW+RETRO+PRM.png",
+      ""
+    ],
+    specs: [
+      "Size: 38.5-48.5",
+      "Colour Shown: Ironstone/Velvet Brown/Velvet Brown",
+      "Style: HQ1979-001",
+      "Country/Region of Origin: Vietnam"
+    ],
+  },
+  27: {
+    title: "Nike Vaporfly 4 'Eliud Kipchoge'",
+    price: "Rp. 3.989.000",
+    description: "The Vaporfly 4 'Eliud Kipchoge' is a lean, mean, mile-eating machine. We trimmed weight in the midsole, outsole and upper from the Vaporfly 3, without sacrificing performance. The result is a lighter, more propulsive all-round racing shoe that's trusted from the mile to the marathon.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/a13cc3d6-32fe-45c6-ad24-53083a93cb8e/ZOOMX+VAPORFLY+NEXT%25+4+EK.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/e44f0349-65b5-4425-badc-45ac7a6f2988/ZOOMX+VAPORFLY+NEXT%25+4+EK.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/10746727-75ff-4ab5-bf1f-1855c3cc8b00/ZOOMX+VAPORFLY+NEXT%25+4+EK.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/f242ce84-baf5-4dda-bc7b-3cdceb4ff298/ZOOMX+VAPORFLY+NEXT%25+4+EK.png",
+      ""
+    ],
+    specs: [
+      "Size: 38.5-47",
+      "Colour Shown: Silt Red/Fire Pink/Bright Ceramic/Green Shock",
+      "Style: IH0869-605",
+      "Country/Region of Origin: China"
+    ],
+  },
+  28: {
+    title: "Nike Cortez Leather",
+    price: "Rp. 1.299.000",
+    description: "You spoke. We listened. Based on your feedback, we've revamped the original Cortez while maintaining the retro appeal you know and love. This version has a wider toe area and firmer side panels, so you can comfortably wear them day in and day out without any warping. Cortez fans—this one's for you.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/3203e4cd-a273-4d0f-930f-cf9c68506e68/NIKE+CORTEZ.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/acfa76de-6ab5-411a-a9fd-801a9515ab47/NIKE+CORTEZ.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/4cd8c8b2-8346-4ecf-b162-91cc7b61d486/NIKE+CORTEZ.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/ebdf393b-5c86-4dea-8a0f-b6b7d2da0b9d/NIKE+CORTEZ.png",
+      ""
+    ],
+    specs: [
+      "Size: 38.5-47.5",
+      "Colour Shown: Black/White",
+      "Style: DM4044-105",
+      "Country/Region of Origin: Indonesia"
+    ],
+  },
+  29: {
+    title: "Nike Shox TL",
+    price: "Rp. 2.669.000",
+    description: "The Nike Shox TL takes mechanical cushioning to the next level. A recrafted version of the 2003 icon, it features breathable mesh in the upper, with full-length Nike Shox technology for optimal impact absorption and a bold look on the streets.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/f77a5000-f789-47c0-a988-5b11c31b2b7b/NIKE+SHOX+TL.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/eda73699-9d00-4e17-8f21-a9cd726fb69d/NIKE+SHOX+TL.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/df9601c0-d467-4c08-8f7f-004baed08d24/NIKE+SHOX+TL.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/96538439-a083-48ea-9c29-abdd70e6b6f7/NIKE+SHOX+TL.png",
+      ""
+    ],
+    specs: [
+      "Size: 38.5-47.5",
+      "Colour Shown:  Black/Metallic Silver/Light Lemon Twist/Court Blue",
+      "Style: IH1338-002",
+      "Country/Region of Origin: Vietnam"
+    ],
+  },
+  30: {
+    title: "Nike V5 RNR",
+    price: "Rp. 1.399.000",
+    description: "Tackle the every day in a shoe that matches comfort with style. Staying true to its Y2K roots, the V5 RNR has a foam midsole that's chunky yet lightweight. Plus, metallic details and a 3D Swoosh logo elevate this retro runner.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/2d61fcd9-cbd2-4468-ad3f-ea464d57de73/NIKE+V5+RNR.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/e527529b-ee05-4ff5-a192-5ccfc65f204e/NIKE+V5+RNR.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/be20259f-a92d-44b7-b022-5d4379197438/NIKE+V5+RNR.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/d844c414-4be6-4c17-b317-380d5111c1c0/NIKE+V5+RNR.png",
+      ""
+    ],
+    specs: [
+      "Size: 38.5-48.5",
+      "Colour Shown: Black/Anthracite/Lime Blast/Black",
+      "Style: HJ5228-005",
+      "Country/Region of Origin: Indonesia"
+    ],
+  },
+  31: {
+    title: "Nike Metcon 10",
+    price: "Rp. 2.379.000",
+    description: "Power your cross-training potential with the Metcon 10. It optimises stability for your heavier lifts with an ultra-strong Hyperlift plate and levels up mobility with responsive ReactX foam. With increased energy return and a lighter weight than the Metcon 9, it helps you conquer any movement your workout demands.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/d5392fe6-e83d-4950-81bc-260b68a665bf/M+NIKE+METCON+10.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/1fea2c8b-350e-4465-a28f-881e1d89c7dd/M+NIKE+METCON+10.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/fc48077b-089b-4496-be2c-4c3c1f0bccf1/M+NIKE+METCON+10.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/48ef05ca-3675-421a-bc48-c9104371a724/M+NIKE+METCON+10.png",
+      ""
+    ],
+    specs: [
+      "Size: 38.5-47.5",
+      "Colour Shown: Black/Anthracite/White",
+      "Style: HJ1875-002",
+      "Country/Region of Origin: Vietnam"
+    ],
+  },
+  32: {
+    title: "Nike Metcon 10 AMP",
+    price: "Rp 2.489.000",
+    description: "Power your cross-training potential with the Metcon 10. It optimises stability for your heavier lifts with an ultra-strong Hyperlift plate and levels up mobility with responsive ReactX foam. With increased energy return and a lighter weight than the Metcon 9, it helps you conquer any movement your workout demands.",
+    images: [
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/5df024e4-c98b-45c8-8e89-e7d670a834c6/M+NIKE+METCON+10+AMP.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/5df024e4-c98b-45c8-8e89-e7d670a834c6/M+NIKE+METCON+10+AMP.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/8ff1e263-0d6b-4230-9430-2f40efe101da/M+NIKE+METCON+10+AMP.png",
+      "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/881d8a6a-187c-4ac6-a0e3-f5914358d141/M+NIKE+METCON+10+AMP.png",
+      ""
+    ],
+    specs: [
+      "Size: 38.5-47.5",
+      "Colour Shown: Light Bone/Cave Stone/Racer Blue",
+      "Style: HQ2615-001",
+      "Country/Region of Origin: Vietnam"
+    ],
+  }
 };
 
 // Modal Functions
