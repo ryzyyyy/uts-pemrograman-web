@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalog Nike</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="men-style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">
+    <img src="http://pluspng.com/img-png/nike-logo-png-png-file-name-nike-logo-2133.png" alt="Nike Logo" class="logo-img">
+  </div>
+  <ul class="nav-links">
+    <li><a href="../assets/olahraga/index.html">Home</a></li>
+    <li><a href="index.html">Sepatu</a></li>
+    <li><a href="../women/index.html">Pakaian</a></li>
+    <li><a href="../kids/index.html">Aksesoris</a></li>
+  </ul>
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Cari produk...">
+    <button id="searchButton"><i class="fas fa-search"></i></button>
+  </div>
+</nav>
+
+
+<!-- HERO (Video Lokal Nike yang Bisa Diputar) -->
+<section class="hero video-hero fade-in">
+  <!-- Video Lokal dengan Kontrol -->
+  <video controls autoplay muted loop class="hero-video" poster="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1920,c_limit/hero-poster.jpg">
+    <source src="Nike.mp4" type="video/mp4">
+    <!-- Fallback: Gambar jika video tidak didukung -->
+    <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1920,c_limit/hero-fallback.jpg" alt="Nike Hero Fallback" class="video-fallback">
+    Browser Anda tidak mendukung video.
+  </video>
+  <!-- Overlay untuk Branding -->
+  <div class="hero-overlay video-overlay"></div> 
+  <div class="hero-content video-content">
+    <a href="#produk" class="btn btn-hero">Lihat Koleksi</a>
+  </div>
+</section>
+
+  <section id="promo" class="slider fade-in">
+  <h2 class="slider-title">Produk Baru</h2>
+  <div class="slider-container">
+    <div class="slides">
+      <!-- Slide 1: Contoh dengan overlay -->
+      <div class="slide-item" data-original-price="Rp 1.729.000" data-discount-price="Rp 1.399.000" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e4ff57b8-30a3-4021-aeec-e26160d047d2/WMNS+AIR+JORDAN+1+LOW.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Air Jordan 1 Low</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <!-- Ulangi struktur serupa untuk slide 2-12, dengan data yang sesuai -->
+      <div class="slide-item" data-original-price="Rp 2.989.000" data-discount-price="Rp 2.699.000" data-description="Promo eksklusif untuk Air Jordan 5.">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/enfwf2dts2zb129cjgw5/AIR+MAX+PLUS+III.png" alt="Promo 2">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike Air Max Plus III</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <!-- Lanjutkan untuk slide lainnya dengan data promo yang relevan -->
+       <div class="slide-item" data-original-price="Rp 1.729.000" data-discount-price="Rp 1.383.200" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/4bf82ac1-2cd6-4886-872f-45844941d220/NIKE+FIELD+GENERAL.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike Field General</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-item" data-original-price="Rp 2.099.000" data-discount-price="Rp 1.729.000" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/41780337-ae59-4fc7-bd09-2929781e43ae/NIKE+DUNK+LOW+RETRO+LTD+HWN.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike Dunk Low Retro Limited</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-item" data-original-price="Rp 1.069.000" data-discount-price="Rp 889.000" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/78a358e9-41fc-4be3-8184-47c19ea18fe2/NIKE+SB+FC+CLASSIC.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike SB FC Classic</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-item" data-original-price="Rp 1.729.000" data-discount-price="Rp 1.209.000" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/67151472-8bd0-46cd-9f87-c6bda52a89ad/AIR+FORCE+1+%2707.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike Air Force 1'07</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-item" data-original-price="Rp 2.849.000" data-discount-price="Rp 2.329.000" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/57828aaf-a326-4126-bdcf-b73b59c03355/WMNS+AIR+JORDAN+1+RETRO+HI+OG.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Air Jordan 1 Retro High OG 'Baroque Brown and Sail'</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-item" data-original-price="Rp 4.000.000" data-discount-price="Rp 3.329.000" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/0ff016e8-1518-4bbc-8c87-bf5f3f2150be/AIR+FORCE+1+%2707+LV8.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike Air Force 1'07 LV8</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-item" data-original-price="Rp 4.000.000" data-discount-price="Rp 3.329.000" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/f40040f5-be12-46a1-98e6-eaae48acc8df/W+NIKE+PEGASUS+PREMIUM.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike Pegasus Premium</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide-item" data-original-price="Rp 4.000.000" data-discount-price="Rp 3.329.000" data-description="Diskon 20% untuk Air Jordan 4 Retro. Terbatas stok!">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/174104d4-4f49-4af8-919f-0c5f7045f0c7/NIKE+VOMERO+PREMIUM.png" alt="Promo 1">
+        <div class="promo-overlay">
+          <div class="promo-details">
+            <h3>Nike Vomero Premium</h3>
+            <button class="promo-btn">Tambahkan ke Favorit</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- PRODUK -->
+  <section id="produk" class="container fade-in">
+    <h2 class="section-title">Katalog Produk</h2>
+    <div class="grid" id="productGrid">
+      <!-- Produk akan ditampilkan di sini -->
+      <div class="card" data-product-id="1">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c000386a-dc24-4a07-bcb7-23e293cfbb4d/AIR+JORDAN+4+RETRO.png" alt="Air Jordan 4 Retro 'Rare Air'">
+        <div class="card-content">
+          <h3>Air Jordan 4 Retro 'Rare Air'</h3>
+          <div class="price">Rp 3.329.000</div>
+          <button onclick="openProductModal(1)">Lihat Detail</button> <!-- Ubah button untuk trigger modal -->
+        </div>
+      </div>
+
+      <div class="card" data-product-id="2">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/70e76208-4c63-4b69-a018-7000a505873b/AIR+JORDAN+5+RETRO+OG.png" alt="Air Jordan 5 Retro">
+        <div class="card-content">
+          <h3>Air Jordan 5 Retro</h3>
+          <div class="price">Rp 3.269.000</div>
+          <button onclick="openProductModal(2)">Lihat Detail</button>
+        </div>
+      </div>
+  
+      <div class="card" data-product-id="3">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b2549df0-1a59-4595-a776-ec1dd83dc1e3/JORDAN+MVP+92.png" alt="Air Jordan MVP 92">
+        <div class="card-content">
+          <h3>Air Jordan MVP 92</h3>
+          <div class="price">Rp 2.249.000</div>
+          <button onclick="openProductModal(3)">Lihat Detail</button> <!-- Ubah button untuk trigger modal -->
+        </div>
+      </div>
+
+      <div class="card" data-product-id="4">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2585d03f-7906-458a-8293-65e72cc842d3/JORDAN+LUKA+.77+PF.png" alt="Luka .77 PF 'Gone Camping'">
+        <div class="card-content">
+          <h3>Luka .77 PF 'Gone Camping'</h3>
+          <div class="price">Rp 1.549.000</div>
+          <button onclick="openProductModal(4)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="5">
+        <img src="https://static.nike.com/a/images/w_1280,q_auto,f_auto/15b77901-eb6e-46a8-8c2e-76beb0b5b42a/air-jordan-1-low-travis-scott-x-fragment-release-date.jpg" alt="Nike x Travis Scott">
+        <div class="card-content">
+          <h3>Air Jordan 1 Low Travis Scott x Fragment</h3>
+          <div class="price">Rp 32.249.000</div>
+          <button onclick="openProductModal(5)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="6">
+        <img src="https://static.nike.com/a/images/w_1280,q_auto,f_auto/a6e5200a-32a6-49b0-afea-74970bcc3ee6/air-jordan-1-low-x-travis-scott-reverse-olive-dm7866-200-release-date.jpg" alt="Nike x Travis Scott">
+        <div class="card-content">
+          <h3>Air Jordan 1 Low x Travis Scott Reverse Olive</h3>
+          <div class="price">Rp 32.249.000</div>
+          <button onclick="openProductModal(6)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="7">
+        <img src="https://static.nike.com/a/images/w_1280,q_auto,f_auto/da9599f1-6473-4891-8f96-31a0754df130/air-force-1-mid-x-off-white-%E2%84%A2%EF%B8%8F-white-do6290-100-release-date.jpg" alt="Nike x Off White">
+        <div class="card-content">
+          <h3>Air Force 1 Mid x Off-White ™️White</h3>
+          <div class="price">Rp 3.799.000</div>
+          <button onclick="openProductModal(7)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="8">
+        <img src="https://static.nike.com/a/images/w_1280,q_auto,f_auto/e4016c7a-b836-45ab-8669-99651f1252db/ldwaffle-x-sacai-x-fragment-light-smoke-grey-release-date.jpg" alt="Nike Sacai">
+        <div class="card-content">
+          <h3>LDWaffle x sacai x Fragment Light Smoke Grey</h3>
+          <div class="price">Rp 8.349.000</div>
+          <button onclick="openProductModal(8)">Lihat Detail</button>
+        </div>
+      </div>
+      <div class="card" data-product-id="9">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/eb37ad0f-bdb2-4a84-9580-1bbadb807932/AIR+FORCE+1+GTX.png" alt="Air Jordan 4 Retro 'Rare Air'">
+        <div class="card-content">
+          <h3>Nike Air Force 1 GORE-TEX ®</h3>
+          <div class="price">Rp 2.489.000</div>
+          <button onclick="openProductModal(9)">Lihat Detail</button> <!-- Ubah button untuk trigger modal -->
+        </div>
+      </div>
+
+      <div class="card" data-product-id="2">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8326e5fe-d8d5-422f-984f-2e591732d5af/AIR+JORDAN+1+LOW+SE.png" alt="Air Jordan 5 Retro">
+        <div class="card-content">
+          <h3>Air Jordan 1 Low SE</h3>
+          <div class="price">Rp 1.939.000</div>
+          <button onclick="openProductModal(10)">Lihat Detail</button>
+        </div>
+      </div>
+  
+      <div class="card" data-product-id="3">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/749d806d-a9fd-469e-8f6a-90a3c34c0319/NIKE+GATO+LV8.png" alt="Air Jordan MVP 92">
+        <div class="card-content">
+          <h3>Nike Gato LV8</h3>
+          <div class="price">Rp 1.729.000</div>
+          <button onclick="openProductModal(11)">Lihat Detail</button> <!-- Ubah button untuk trigger modal -->
+        </div>
+      </div>
+
+      <div class="card" data-product-id="4">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/da852398-32bd-4760-9c3d-b291e80cc5a0/AIR+ZOOM+INFINITY+TR+NEXT%25+2.png" alt="Luka .77 PF 'Gone Camping'">
+        <div class="card-content">
+          <h3>Nike Infinity Tour 2</h3>
+          <div class="price">Rp 2.669.000</div>
+          <button onclick="openProductModal(12)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="5">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/75a08905-26cc-4f14-aec0-ebbe410f1ff1/NIKE+FIELD+GENERAL.png" alt="Nike x Travis Scott">
+        <div class="card-content">
+          <h3>Nike Field General</h3>
+          <div class="price">Rp 1.729.000</div>
+          <button onclick="openProductModal(13)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="6">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0874efb5-3593-45a2-90db-2ca11288c353/JORDAN+SPIZIKE+LOW.png" alt="Nike x Travis Scott">
+        <div class="card-content">
+          <h3>Jordan Spizike Low</h3>
+          <div class="price">Rp 2.489.000</div>
+          <button onclick="openProductModal(14)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="7">
+        <img src="https://static.nike.com/a/images/w_1280,q_auto,f_auto/882c8d1f-2ff0-41ca-9d33-04438ab90473/air-jordan-1-low-og-chicago-hq6998-600-release-date.jpg" alt="Nike x Off White">
+        <div class="card-content">
+          <h3>Air Jordan 1 Low OG Chicago</h3>
+          <div class="price">Rp 2.199.000</div>
+          <button onclick="openProductModal(15)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="8">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/6ba7032d-6378-4caf-8e6a-792eab2906e2/W+NIKE+TERRA+MANTA.png" alt="Nike Sacai">
+        <div class="card-content">
+          <h3>Nike Terra Manta</h3>
+          <div class="price">Rp 1.299.000</div>
+          <button onclick="openProductModal(16)">Lihat Detail</button>
+        </div>
+      </div>
+      <div class="card" data-product-id="1">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/b04d933e-09e5-47cb-887e-010ca16a9c79/LD-1000.png" alt="Air Jordan 4 Retro 'Rare Air'">
+        <div class="card-content">
+          <h3>Nike LD-1000</h3>
+          <div class="price">Rp 1.549.000</div>
+          <button onclick="openProductModal(17)">Lihat Detail</button> <!-- Ubah button untuk trigger modal -->
+        </div>
+      </div>
+
+      <div class="card" data-product-id="2">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/9f7db366-c963-4a18-9d13-6898fcee903a/W+NIKE+CORTEZ+TXT.png" alt="Air Jordan 5 Retro">
+        <div class="card-content">
+          <h3>Nike Cortez Textile</h3>
+          <div class="price">Rp 1.549.000</div>
+          <button onclick="openProductModal(18)">Lihat Detail</button>
+        </div>
+      </div>
+  
+      <div class="card" data-product-id="3">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/e39e1b20-764a-42c2-a502-68113ae82e57/AIR+FORCE+1+LOW+RETRO.png" alt="Air Jordan MVP 92">
+        <div class="card-content">
+          <h3>Air Force 1 Low Retro</h3>
+          <div class="price">Rp 2.099.000</div>
+          <button onclick="openProductModal(19)">Lihat Detail</button> <!-- Ubah button untuk trigger modal -->
+        </div>
+      </div>
+
+      <div class="card" data-product-id="4">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/8df59fc3-af05-4377-9596-f0ee42a007b3/AIR+MAX+DN+ROAM.png" alt="Luka .77 PF 'Gone Camping'">
+        <div class="card-content">
+          <h3>Nike Air Max Dn Roam</h3>
+          <div class="price">Rp 2.849.000</div>
+          <button onclick="openProductModal(20)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="5">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5c46baf6-cbcf-48cf-a2a8-f8f2e7f84e38/AIR+JORDAN+1+RETRO+HIGH+OG.png" alt="Nike x Travis Scott">
+        <div class="card-content">
+          <h3>Air Jordan 1 Retro High OG 'Shattered Backboard'</h3>
+          <div class="price">Rp 2.849.000</div>
+          <button onclick="openProductModal(21)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="6">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fac4e5c6-d9f4-454f-b7f2-b3d8d8c81619/AIR+JORDAN+1+LOW+G.png" alt="Nike x Travis Scott">
+        <div class="card-content">
+          <h3>Air Jordan 1 Low G</h3>
+          <div class="price">Rp 2.149.000</div>
+          <button onclick="openProductModal(22)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="7">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/b1bcbca4-e853-4df7-b329-5be3c61ee057/NIKE+DUNK+LOW+RETRO.png" alt="Nike x Off White">
+        <div class="card-content">
+          <h3>Nike Dunk Retro Panda</h3>
+          <div class="price">Rp 1.549.000</div>
+          <button onclick="openProductModal(23)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="8">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/6c2e20d9-a361-40a5-b69f-1d2c083b1747/NIKE+SB+DUNK+LOW+PRO.png" alt="Nike Sacai">
+        <div class="card-content">
+          <h3>Nike SB Dunk Low Pro</h3>
+          <div class="price">Rp 1.729.000</div>
+          <button onclick="openProductModal(24)">Lihat Detail</button>
+        </div>
+      </div>
+      <div class="card" data-product-id="1">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/44ab6f86-7091-44a4-a939-6ff1ef34d818/NIKE+DUNK+LOW+RETRO+SE.png" alt="Air Jordan 4 Retro 'Rare Air'">
+        <div class="card-content">
+          <h3>Nike Dunk Low Retro SE</h3>
+          <div class="price">Rp 1.909.000</div>
+          <button onclick="openProductModal(25)">Lihat Detail</button> <!-- Ubah button untuk trigger modal -->
+        </div>
+      </div>
+
+      <div class="card" data-product-id="2">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/f292f4b3-173b-417a-8720-545e96a68199/NIKE+DUNK+LOW+RETRO+PRM.png" alt="Air Jordan 5 Retro">
+        <div class="card-content">
+          <h3>Nike Dunk Low Retro Premium</h3>
+          <div class="price">Rp 1.909.000</div>
+          <button onclick="openProductModal(26)">Lihat Detail</button>
+        </div>
+      </div>
+  
+      <div class="card" data-product-id="3">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/18dfed3d-2017-4170-a0ca-404187bf72d7/ZOOMX+VAPORFLY+NEXT%25+4+EK.png" alt="Air Jordan MVP 92">
+        <div class="card-content">
+          <h3>Nike Vaporfly 4 'Eliud Kipchoge'</h3>
+          <div class="price">Rp 3.989.000</div>
+          <button onclick="openProductModal(27)">Lihat Detail</button> <!-- Ubah button untuk trigger modal -->
+        </div>
+      </div>
+
+      <div class="card" data-product-id="4">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/3086bc60-2873-4bb1-9858-6ee2f94757e0/NIKE+CORTEZ.png" alt="Luka .77 PF 'Gone Camping'">
+        <div class="card-content">
+          <h3>Nike Cortez Leather</h3>
+          <div class="price">Rp 1.299.000</div>
+          <button onclick="openProductModal(28)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="5">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/dda62807-af6b-4d4a-ade4-c6e45f55b69e/NIKE+SHOX+TL.png" alt="Nike x Travis Scott">
+        <div class="card-content">
+          <h3>Nike Shox TL</h3>
+          <div class="price">Rp 2.669.000</div>
+          <button onclick="openProductModal(29)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="6">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/e573329e-3157-45e9-a124-182c148f4a04/NIKE+V5+RNR.png" alt="Nike x Travis Scott">
+        <div class="card-content">
+          <h3>Nike V5 RNR</h3>
+          <div class="price">Rp 1.399.000</div>
+          <button onclick="openProductModal(30)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="7">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/5709c27f-742f-4236-93c5-fd398cde51f9/M+NIKE+METCON+10.png" alt="Nike x Off White">
+        <div class="card-content">
+          <h3>Nike Metcon 10</h3>
+          <div class="price">Rp 2.379.000</div>
+          <button onclick="openProductModal(31)">Lihat Detail</button>
+        </div>
+      </div>
+
+      <div class="card" data-product-id="8">
+        <img src="https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/4711f427-cd33-4476-a1ed-7660fb641de8/M+NIKE+METCON+10+AMP.png" alt="Nike Sacai">
+        <div class="card-content">
+          <h3>Nike Metcon 10 AMP</h3>
+          <div class="price">Rp 2.489.000</div>
+          <button onclick="openProductModal(32)">Lihat Detail</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+    <!-- KATEGORI -->
+  <section class="kategori fade-in">
+    <h2 class="section-title">Kategori Produk</h2>
+    <div class="kategori-grid">
+      <a class="kategori-item" href="../lifestyle/index.html">Gaya Hidup</a>
+      <a class="kategori-item" href="index.html">Olahraga</a>
+      <a class="kategori-item" href="../collabs/index.html">Collab</a>
+    </div>
+  </section>
+  
+  <!-- SUBSCRIBE -->
+  <section class="subscribe fade-in">
+    <h2>Dapatkan Promo Update Nike</h2>
+    <form>
+      <input type="email" placeholder="Masukkan email Anda">
+      <button type="submit">Berlangganan</button>
+    </form>
+  </section>
+
+  <!-- TENTANG -->
+  <section id="tentang" class="about fade-in">
+    <h2 class="section-title">Tentang Nike</h2>
+    <p>
+      Nike, Inc. adalah salah satu perusahaan sepatu, pakaian dan alat-alat olahraga Amerika Serikat yang merupakan salah satu yang terbesar di dunia. Mereka terkenal karena mensponsori beberapa olahragawan profesional dunia seperti Cristiano Ronaldo, Leroy Sané, Kylian Mbappe, Ronaldinho, Wayne Rooney, Rafael Nadal, Pete Sampras, Tiger Woods, LeBron James, Kyrie Irving, James Stewart, dan Michael Jordan. Dengan slogan <em>Just Do It</em>, 
+      Nike menginspirasi generasi untuk terus bergerak maju. Nike berkomitmen untuk memberikan produk terbaik
+      yang mendukung setiap langkah menuju keunggulan.
+    </p>
+  </section>
+
+  <!-- KONTAK -->
+<section id="kontak" class="contact fade-in">
+  <h2 class="section-title">Kontak Kami</h2>
+  <div class="social-media">
+    <a href="https://www.instagram.com/nike/" target="_blank" aria-label="Instagram">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+    <a href="https://www.facebook.com/nike/" target="_blank" aria-label="Facebook">
+      <i class="fab fa-facebook-f"></i> Facebook
+    </a>
+    <a href="https://twitter.com/Nike" target="_blank" aria-label="Twitter">
+      <i class="fab fa-twitter"></i> Twitter
+    </a>
+  </div>
+</section>
+
+  <footer>
+    <p>&copy; Katalog Nike | Made by ryzyyy </p>
+  </footer>
+  <div id="productModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="modal-body">
+      <!-- Carousel Images -->
+      <div class="image-carousel">
+        <div class="carousel-images" id="carouselImages">
+          <!-- Images akan diisi via JS -->
+        </div>
+        <button class="prev">&lt;</button>
+        <button class="next">&gt;</button>
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+      
+      <!-- Deskripsi Produk -->
+      <div class="product-details">
+        <h2 id="productTitle"></h2>
+        <div class="price" id="productPrice"></div>
+        <p id="productDescription"></p>
+        <ul class="specs">
+          <!-- Specs akan diisi via JS -->
+        </ul>
+        <button class="buy-btn">Beli Sekarang</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+
+  
+</body>
+</html>
